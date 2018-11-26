@@ -1,0 +1,15 @@
+{
+  "name": "first-app-jquery",
+  "version": "0.0.1",
+  "description": "main.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "junhojohn",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "jquery": "^3.3.1"
+  }
+}

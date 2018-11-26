@@ -1,0 +1,14 @@
+{
+  "name": "irgenerator",
+  "version": "1.0.0",
+  "description": "integrated request generator app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "junhojohn",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.2"
+  }
+}

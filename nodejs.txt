@@ -1,0 +1,69 @@
+1. npm init
+2. npm install electron --save
+3. npm install jquery --save
+4. npm install bootstrap --save
+5. npm install bootstrap-filestyle --save
+6. header에 다음 코드 추가
+    <script>
+      window.$ = window.jQuery = require('jquery');
+      require('bootstrap-filestyle');
+    </script>
+
+7. 디버깅 방법: Console 탭
+
+<JDBC  연동>
+1. Python 2.7 설치
+2. Visual Studio 2013 express 설치
+3. 관리자 권한으로 다음 명령어 입력 : npm install --global --production windows-build-tools﻿
+4. git bash 창에서 npm install --save sqlite3 입력
+5. main.js에 다음 입력
+  // and load the index.html of the app.
+  win.loadFile('index.html')
+ㅇ
+  // SQLite studff
+  let server = require('./server/server.js')
+  
+  // Open the DevTools.
+  win.webContents.openDevTools()
+
+6. server/server.js 파일 만든 후 아래 내용 입력
+
+7. npm start 하여 에러 확인
+8. package.json 열어서 "scripts" :{ 에 다음 입력 
+"rebuild": "electron-rebuild -f -w sqlite3"
+
+9. node_module/sqlite3/lib/binding/node-v57-win32-x64 폴더가 있는 것 확인
+10. git bash 창에서 npm install --save-dev electron-rebuild  입력
+11. git bash 창에서 npm run rebuild 입력
+12.node_module/sqlite3/lib/binding아래 electron-v2.0-win32-x64 생성된 것 확인
+13. npm start 입력
+
+참고: https://www.youtube.com/watch?v=Oc1MaWCGE_U&t=304s
+주의: rebuild시 프로젝트 폴더 명에 띄어쓰기나 한글 지원 안됨
+
+
+
+
+
+라이선스
+빌드 패키지 및 배포
+유지보수 측면
+외주 활용
+화면 개발 비용 및 시간 단축
+DB 연결 여부
+기존 JAVA 프로젝트 포팅 가능 여부
+
+
+1. IRG 따라하기
+	- 기본기능설명: IRG 기능 설명
+	- 부가기능설명: DB 연동하기
+	- 부가기능설명: JAVA 레거시 코드 연동하기
+	- 부가기능설명: 테이블, HELP 등 넣어보기
+	- 부가기능설명: 테스트 방법
+	- 빌드 패키지 및 배포하기
+	- 라이선스 생성 및 관리하기
+	- Migrate to 3rd Party Devices(모바일, 웹)
+
+2. 효과 및 장단점
+
+3. 향후 일정

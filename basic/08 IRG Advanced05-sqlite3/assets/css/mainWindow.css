@@ -1,0 +1,33 @@
+body{
+  background-color:#E6E6E6;
+  text-align: left;
+}
+fieldset
+{
+  background-color:#E6E6E6;
+  max-width:700px;
+  padding:16px;	
+  text-align: left;
+  border: black;
+}
+legend
+{
+  margin-bottom:0px;
+  margin-left:16px;
+  text-align: left;
+}
+
+input {
+  vertical-align: middle;
+}
+input.text-path{
+  background-color:#E6E6E6
+}
+
+input[type='file']{
+  background-color:rgb(230, 230, 230);
+}
+
+img{
+  float: middle;
+}

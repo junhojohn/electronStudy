@@ -1,0 +1,23 @@
+{
+  "name": "irgenerator",
+  "version": "1.0.0",
+  "description": "integrated request generator app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3"
+  },
+  "author": "junhojohn",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bootstrap-filestyle": "^1.2.1",
+    "electron": "^2.0.2",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-rc.1",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.7.3"
+  }
+}

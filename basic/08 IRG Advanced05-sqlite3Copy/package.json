@@ -1,0 +1,75 @@
+{
+  "build": {
+    "productName": "IRGenerator",
+    "appId": "com.suresofttech.irgenerator",
+    "asar": true, 
+    "protocols" : {
+        "name" : "IRGenerator",
+        "schemes" : ["helloelectron"]
+    },
+    "mac": { 
+      "target": [
+        "default"
+      ],
+      "icon": "./assets/icons/mac/icon.icns"
+    },
+    "dmg": { 
+      "title": "IRGenerator",
+      "icon": "./assets/icons/mac/icon.icns"
+    },
+    "win": {  
+      "target": [ 
+        "zip",  
+        "nsis"  
+      ],
+      "icon": "./assets/icons/win/icon.ico"
+    },
+    "linux": { 
+      "target": [
+        "AppImage", 
+        "deb",
+        "rpm",
+        "zip",
+        "tar.gz"
+      ],
+      "icon": "./assets/icons/png/icon.png"
+    },
+    "nsis":{
+      "oneClick" : false,
+      "allowToChangeInstallationDirectory" :true 
+    },
+    "directories": {
+      "buildResources": "resources/installer/",
+      "output": "dist/", 
+      "app": "."
+    }
+  },
+  "name": "irgenerator",
+  "version": "1.0.0",
+  "description": "integrated request generator app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:osx": "build --mac",
+    "build:linux": "npm run build:linux32 && npm run build:linux64",
+    "build:linux32": "build --linux --ia32",
+    "build:linux64": "build --linux --x64",
+    "build:win": "npm run build:win32 && npm run build:win64", 
+    "build:win32": "build --win --ia32",
+    "build:win64": "build --win --x64"
+  },
+  "author": "junhojohn",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bootstrap-filestyle": "^1.2.1",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-rc.1",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-package": "^0.1.0",
+    "electron-rebuild": "^1.7.3"
+  }
+}

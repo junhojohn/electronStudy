@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IRGenerator(Integration Request document Generator)</title>
+    <link href="css/mainWindow.css" rel="stylesheet"/>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><strong><font size="4" color="black">경로 설정</font></strong></legend>
+            Base 코드 경로: <input type="text"><input type="button" value="찾기"><br>
+            Update 코드 경로: <input type="text"><input type="button" value="찾기"><br>
+            IR문서 저장폴더 경로: <input type="text"><input type="button" value="찾기">
+          </fieldset>      
+      </form>    
+      <form>
+        <fieldset>
+            <legend><strong><font size="4" color="black">SVN 접속 정보</font></strong></legend>
+            SVN 경로: <input type="text"><br>
+            SVN 아이디 입력: <input type="text"><input type="button" value="SVN 서버접속 확인"><br>
+            SVN 비밀번호 입력: <input type="text">
+          </fieldset>      
+      </form>      
+      <form>
+        <fieldset>
+            <legend><strong><font size="4" color="black">버전 정보 설정</font></strong></legend>
+            프로젝트 버전 설정: <input type="text"><input type="text"><input type="text"><input type="button" value="프로젝트 버전 초기화"><br>
+            메인의 파생 프로젝트 명: <input type="text"><input type="button" value="프로젝트 버전 유효성 체크"><br>
+        </fieldset>
+      </form>   
+      <form>
+        <input type="submit" value="메인 IR문서 생성하기">
+      </form>                   
+      <form>
+        <input type="submit" value="저장 폴더 열기">
+      </form>
+      <form>
+        <fieldset>
+            <legend><strong><font size="4" color="black">파생 프로젝트 명 입력</font></strong></legend>
+            파생 프로젝트1: <input type="text">파생 프로젝트2: <input type="text"><br>
+            파생 프로젝트3: <input type="text">파생 프로젝트4: <input type="text"><br>
+            파생 프로젝트5: <input type="text"><br>
+        </fieldset>
+      </form>
+      <form>
+        <input type="submit" value="파생 IR문서 생성하기">
+      </form>         
+</body>
+</html>

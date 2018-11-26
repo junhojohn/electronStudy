@@ -1,0 +1,21 @@
+{
+  "name": "first-app",
+  "version": "0.0.1",
+  "description": "none",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "junhojohn",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bootstrap-filestyle": "^1.2.1",
+    "jquery": "^3.3.1",
+    "my-popperjs": "^16.7.1",
+    "popper": "^1.0.1"
+  }
+}

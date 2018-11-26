@@ -1,0 +1,38 @@
+1. npm init
+2. npm install electron --save
+3. npm install jquery --save
+4. npm install bootstrap --save
+5. npm install bootstrap-filestyle --save
+6. header에 다음 코드 추가
+    <script>
+      window.$ = window.jQuery = require('jquery');
+      require('bootstrap-filestyle');
+    </script>
+
+7. 디버깅 방법: Console 탭
+
+
+
+
+라이선스
+빌드 패키지 및 배포
+유지보수 측면
+외주 활용
+화면 개발 비용 및 시간 단축
+DB 연결 여부
+기존 JAVA 프로젝트 포팅 가능 여부
+
+
+1. IRG 따라하기
+	- 기본기능설명: IRG 기능 설명
+	- 부가기능설명: DB 연동하기
+	- 부가기능설명: JAVA 레거시 코드 연동하기
+	- 부가기능설명: 테이블, HELP 등 넣어보기
+	- 부가기능설명: 테스트 방법
+	- 빌드 패키지 및 배포하기
+	- 라이선스 생성 및 관리하기
+	- Migrate to 3rd Party Devices(모바일, 웹)
+
+2. 효과 및 장단점
+
+3. 향후 일정

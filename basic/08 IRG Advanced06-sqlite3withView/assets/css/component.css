@@ -1,0 +1,71 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400, 300");
+
+/* 경로설정 Button styles */
+ .button {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 1rem;
+	font-weight: 400;
+	font-size: 1rem;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: middle;
+	color: white;
+
+	width: 180px;
+    height: 60px;
+	display: inline-block;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+/* 경로설정 Button Colors styles */
+.blue-icon {
+	background:#77d3e0 url('../images/connect.png') no-repeat 10px 50%; 
+	border-color: #6cc8d4;
+}
+.blue-icon:hover {
+    background-color: #6cc8d4;
+}
+
+/* SVN 환경설정 컨테이너 styles */
+#div-svn-root1
+{
+	position: relative;
+}
+#div-svn-root2
+{
+	position: relative;
+	height: 100px;
+}
+
+#div-svn-sub1
+{
+	position: absolute;
+	margin-right: 25px;
+	left: 5px;
+	top: 5px;
+	bottom: 5px;
+}
+
+#div-svn-sub2
+{
+    position: absolute;
+	right: 5px;
+	top: 5px;
+	bottom: 5px;
+	margin-left: 25px;
+}
+
+input.text-svn-path{
+	width: 280px;
+}
+
+input.text-svnid-path{
+	width: 280px;
+}
+
+input.text-svnpwd-path{
+	width: 280px;
+	top: 5px;
+}
+
