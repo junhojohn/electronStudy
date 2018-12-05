@@ -1,0 +1,14 @@
+{
+  "name": "first-app",
+  "version": "0.0.1",
+  "description": "none",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "junhojohn",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}
